@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #2874f0;
+    height: 8vh;
+    font-family: 'Lato', sans-serif;}
+
+nav{
+    display: flex; 
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 8vw;
+    padding: 0px 2vw;
+}
+
+nav ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 9vh;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 0px 1vw; ;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.searchBar{
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.searchBar input{
+    height: 3.5vh;
+    width: 30vw;
+    border-radius: 2px;
+    margin-right: 1vw;
+    border: 1.2px solid  black;
+    padding: 0px 12px;
+}
+
+.searchBar button{
+    color: #2874f0;
+    background-color:white;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 3.5vw;
+    height: 3vh;
+}
+
+body{
+    background-color: #d4d6d9;
+}
+
+.container1{
+    display: flex;
+    background-color: white;
+    color: black;
+    width: 100vw;
+    height: 18vh;
+}
+.container1 img{
+    height: 12vh;
+    padding: 2vw;
+}
+
+.smallContainers{
+    text-align: center;
+}
+
+.smallContainers img{
+    padding-bottom: 0px;
+    padding-top: 5px;
+}
+
+.smallContainers li{
+    padding-top: 0px;
+    text-decoration: solid;
+}
+
+.categoryLists{
+    list-style: none;
+    text-decoration: none;
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+
+.container2 img{
+    width: 98vw;
+    height: 40vh;
+}
+
+.container3{
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+}
+
+.buttonwala{
+    width: 16.6vw;
+    height: 100vh;
+    margin-top: 2px;
+    text-align: center;
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.buttonwala img{
+    margin-right: 20px;
+}
+
+.electronics{
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    width: 15vw;
+    padding: 7px;
+}
+
+
+
+
+
+
+
+footer{
+    height: 2vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    font-family: 'Lato', sans-serif;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    /* height: 15px;  */
+    font-size: 1vw;
+}
+
+
+
+
